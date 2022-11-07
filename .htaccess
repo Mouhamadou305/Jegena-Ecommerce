@@ -1,0 +1,34 @@
+Options +FollowSymlinks
+RewriteEngine on
+php_flag display_startup_errors on
+php_flag display_errors on
+
+RewriteRule ^login$ /jegena/controleur/login.php
+RewriteRule ^accueil$ /jegena/controleur/accueil.php
+RewriteRule ^cart$ /jegena/controleur/cart.php
+RewriteRule ^accueilAdmin$ /jegena/controleur/accueilAdmin.php
+RewriteRule ^adminCategories$ /jegena/controleur/adminCategories.php
+RewriteRule ^adminCommandes$ /jegena/controleur/adminCommandes.php
+RewriteRule ^adminArticles$ /jegena/controleur/adminArticles.php
+RewriteRule ^ajoutArticle$ /jegena/controleur/ajoutArticle.php 
+RewriteRule ^ajoutCategorie$ /jegena/controleur/ajoutCategorie.php
+RewriteRule ^checkout$ /jegena/controleur/checkout.php
+RewriteRule ^commentaires$ /jegena/controleur/commentaires.php
+RewriteRule ^confirmation$ /jegena/controleur/confirmation.php
+RewriteRule ^contact$ /jegena/controleur/contact.php
+RewriteRule ^deconnexion$ /jegena/controleur/deconnexion.php
+RewriteRule ^historiqueCommandes$ /jegena/controleur/historiqueCommandes.php
+RewriteRule ^livrerCommande$ /jegena/controleur/livrerCommande.php
+RewriteRule ^login$ /jegena/controleur/login.php
+RewriteRule ^modifArticle$ /jegena/controleur/modifArticle.php
+RewriteRule ^modifCategorie$ /jegena/controleur/modifCategorie.php
+RewriteRule ^modifierAdresse$ /jegena/controleur/modifierAdresse.php
+RewriteRule ^modifInfos$ /jegena/controleur/modifInfos.php
+RewriteRule ^parametrage$ /jegena/controleur/parametrage.php
+RewriteRule ^product-details$ /jegena/controleur/product-details.php
+RewriteRule ^product-grid$ /jegena/controleur/product-grid.php
+RewriteRule ^supprArticle$ /jegena/controleur/supprArticle.php
+RewriteRule ^supprCategorie$ /jegena/controleur/supprCategorie.php
+RewriteRule ^supprCommande$ /jegena/controleur/supprCommande.php
+RewriteRule ^visualiserCommande$ /jegena/controleur/visualiserCommande.php
+RewriteRule ^wishlist$ /jegena/controleur/wishlist.php [L]
